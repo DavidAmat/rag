@@ -8,6 +8,9 @@ import argparse
 # SERVER_URL = 'https://8000-01hxj54gh5yry3bpaw5k8s5t5j.cloudspaces.litng.ai'
 SERVER_URL = 'http://127.0.0.1:8080'
 
+# Example of usage
+# python client.py --query "What is the capital of France?"
+
 def main():
     parser = argparse.ArgumentParser(description="Send a query to the server.")
     parser.add_argument("--query", type=str, required=True, help="The query text to send to the server.")
