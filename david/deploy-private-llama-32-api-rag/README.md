@@ -15,3 +15,6 @@ python rag_server.py
 ``` 
 
 Then go to notebook `server_request.ipynb` to run a request. 
+
+## Conda Env
+r_apirag
